@@ -5,5 +5,6 @@ public class Apple extends Fruit {
         super(type, weight);
     }
 
+
 }
 

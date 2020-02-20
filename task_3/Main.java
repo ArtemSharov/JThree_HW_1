@@ -14,13 +14,17 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        Box box_1 = new Box();
+        Box<Apple> box_1 = new Box();
         Apple apple_1 = new Apple("Apple", 1.0f);
         Orange orange_1 = new Orange("Orange", 1.5f);
-
+        Box.addToBox(box_1,apple_1,7);
+        Box.addToBox(box_1, orange_1, 5);
         System.out.println(box_1);
 
+
+
     }
+
 
 
 
