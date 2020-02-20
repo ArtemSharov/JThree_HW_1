@@ -14,7 +14,7 @@ public class Box<T extends Fruit> extends ArrayList {
     public static <T> T getWeight(Box b){
         float weightBox = 0;
         for (Object fruit: b) {
-            weightBox +=Fruit.getWeightFruit;
+            weightBox +=Fruit.getWeightFruit; //почему не доступен метод класса фрукт?
         }
     }
 
